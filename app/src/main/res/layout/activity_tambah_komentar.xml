@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:scrollbarStyle="outsideOverlay">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="2dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/tv_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                app:met_floatingLabel="highlight"
+                app:met_iconPadding="0dp"
+                app:met_maxCharacters="100"
+                app:met_singleLineEllipsis="true"
+                app:met_clearButton="true"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/tv_alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                app:met_floatingLabel="highlight"
+                app:met_iconPadding="0dp"
+                app:met_singleLineEllipsis="true"
+                app:met_clearButton="true"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/tv_komentar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Komentar"
+                app:met_floatingLabel="highlight"
+                app:met_singleLineEllipsis="true"
+                app:met_iconPadding="0dp"
+                app:met_clearButton="true"/>
+
+            <com.dd.processbutton.FlatButton
+                android:layout_marginTop="4dp"
+                android:id="@+id/btnUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIMPAN"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:pb_colorNormal="@color/primary_dark"
+                app:pb_colorPressed="@color/primary"
+                app:pb_cornerRadius="4dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B71C1C</color>
+    <color name="colorPrimaryDark">#660202</color>
+    <color name="colorAccent">#FF8F00</color>
+    <color name="background_app">#B71C1C</color>
+    <color name="colorTextDefault">#FFF</color>
+    <color name="warnaripple">#402196F3</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="floatingButton">#4996a2</color>
+    <color name="floatingButtonPressed">#00796B</color>
+    <color name="floatingNav">#1d3f72</color>
+    <color name="floatingNavPressed">#143260</color>
+    <color name="floatingStreet">#5699d2</color>
+    <color name="floatingStreetPressed">#4585bc</color>
+    <color name="floatingKomen">#56696e</color>
+    <color name="floatingKomenPressed">#42484b</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="colorAccent3">#009688</color>
+</resources>
